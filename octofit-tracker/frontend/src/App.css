@@ -1,0 +1,130 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.App-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap Table Customization */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+thead.table-dark {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  color: #fff;
+}
+tbody tr {
+  background: #f3f8ff;
+}
+tbody tr:nth-child(even) {
+  background: #f8e8ff;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  border: none;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  border: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2575fc;
+  font-weight: 700;
+}
+.card-title.text-success {
+  color: #43e97b !important;
+}
+.card-title.text-info {
+  color: #185a9d !important;
+}
+.card-title.text-warning {
+  color: #f7971e !important;
+}
+.card-title.text-danger {
+  color: #f857a6 !important;
+}
+.card-title.text-primary {
+  color: #2575fc !important;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-text {
+  color: #ffd200 !important;
+}
+
+/* Links */
+a {
+  color: #2575fc;
+  text-decoration: none;
+}
+a:hover {
+  color: #6a11cb;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
